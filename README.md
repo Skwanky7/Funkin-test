@@ -1,4 +1,4 @@
-# Friday night funkin' Test V0.1
+# Funkin' Test V0.1
 Okay so let me get to the point, This is a document demonstrating Every step and requirement you gotta follow to be able to make a Friday night funkin test. It may seem complex but just bare with me. (note that i wrote this in 1 hour so i can quickly deliver it to you guys so it might not contain every detail and such)
 
 ## Requirements:
