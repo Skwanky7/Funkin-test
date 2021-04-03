@@ -37,7 +37,7 @@ Okay so after that's done, go to the Project tab, double click on the Script fol
 <img height ="200" src="https://cdn.discordapp.com/attachments/827853989541576704/827891672888246272/unknown.png">
 </br>
 
-### Open the C# script with Visual Studio Code, then do the following;
+### Open the C# script with Visual Studio Code, name it "IDFK" then do the following;
 Erase all the code then Copy and Paste this in
 ```cs
 using System.Collections;
