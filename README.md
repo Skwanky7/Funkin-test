@@ -35,7 +35,8 @@ Okay so after that's done, go to the Project tab, double click on the Script fol
 
 ### Open the C# script with Visual Studio Code, then do the following;
 Erase all the code then Copy and Paste this in
-```using System.Collections;
+```cs
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -236,3 +237,44 @@ It should look like this:
 <br>
 <img height ="400" src="https://cdn.discordapp.com/attachments/827853989541576704/827900805196939335/unknown.png">
 </br>
+
+## How it works:
+Ooookay, Let me explain what this does. (you can skip if you want but i'd recommend you read)
+
+So, the script is basicaly everything needed for the test to work.
+
+- **Character states**
+```cs
+public bool IsIdle;
+public bool UpNode;
+public bool DownNode;
+public bool LeftNode;
+public bool RightNode;
+```
+wich is a list full of boolean character states.
+
+- **Sprites**
+```cs
+public GameObject IdleSprite;
+public GameObject UpSprite;
+public GameObject DownSprite;
+public GameObject LeftSprite;
+public GameObject RightSprite;
+```
+Those are the Sprites you're gonna be using in-game.
+
+- **Audio Sources and Clips**
+```cs
+public AudioSource AudioS;
+public AudioClip UpSound;
+public AudioClip DownSound;
+public AudioClip LeftSound;
+public AudioClip RightSound;
+```
+Character sound effects and sources.
+
+- **cooldown**
+```cs
+public float cooldown;
+```
+A character state cooldown.
