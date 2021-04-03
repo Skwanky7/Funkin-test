@@ -380,8 +380,8 @@ After that, drag and drop your character sounds to the Project tab (the Characte
 
 ### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
 
-It should look something like this (but without the camera movement);
+It should look something like this (but without the camera movement and with your sprites);
 
-https://user-images.githubusercontent.com/69820539/113486295-42c18380-94b2-11eb-9d51-8897247730c9.mp4
+https://youtu.be/iVyy303Kt68
 
 
