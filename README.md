@@ -384,6 +384,8 @@ After that, drag and drop your character sounds to the Project tab (the Characte
 
 For the Background, import it into the character sprites folder, then drag it into the scene tab and adjust the position to fit the screen.
 
+# Game Results
+
 ### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
 
 It should look something like this (but without the camera movement and with your sprites);
