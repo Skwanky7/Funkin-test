@@ -396,5 +396,4 @@ Try it out at; https://sanebear.itch.io/fnf-tricky-madness-combat-test
 
 Camera movements upcoming in the next Document Version. (i'm in a hurry sorry lol)
 
-
-<sup><sub> A document by SaneMan. </sub></sup>
+<img src="https://cdn.discordapp.com/attachments/827853989541576704/827898707441090610/Untitled47-1-1-1.jpg" height="30" /> <sup><sub> A document by SaneMan. </sub></sup>
