@@ -369,4 +369,13 @@ Go to ``Windows > Animation > Animation`` wich will open a new Tab called Animat
 
 Click on a random sprite (keep it active) and deactivate all the others by going through each one of them all and clicking the button near their names on the inspector (click it again to enable), then start animating the one that isn't disabled by selecting it, going to the Animation tab and clicking on Create And naming the animation whatever (for example UpNode if the random sprite is for the up node.), click on the red button near the preview button then drag and drop all the other animation frames for the coresponding sprite into the animation tab. that'll make kind of an animation. For More detail watch this: https://www.youtube.com/watch?v=BlalhxSTUWo
 
-Once you're done with that one, you can disable and enable another sprite aaand continue the process with every single sprite.
+Once you're done with that one, you can disable and enable another sprite aaand continue the process with every single sprite. (Up, down, left and right)
+
+once you're done, select the Empty Object and drag and drop every single one of them from the hierarchy into the slots in the inspector.
+<br>
+<img height ="100" src="https://cdn.discordapp.com/attachments/827853989541576704/827944125155246140/unknown.png">
+</br>
+
+After that, drag and drop your character sounds to the Project tab (the CharacterSprites folder to be specific) and select the empty gameobject in the hierarchy tab then drag and drop the audio clips into the empty slots. Right click in the hierarchy tab > Audio > AudioSource And finaly drag and drop that AudioSource into the Audio S slot in the GameObject's Inspector.
+
+### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
