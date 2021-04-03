@@ -70,7 +70,7 @@ public class IDFK : MonoBehaviour
     public AudioClip RightSound;
 
     [Header("values")]
-    public float cooldown;
+    public float cooldown = 0.5f;
 
     // Start is called before the first frame update
     void Start()
@@ -280,9 +280,9 @@ Character sound effects and sources.
 
 - **cooldown**
 ```cs
-public float cooldown;
+public float cooldown = 0.5f;
 ```
-A character state cooldown.
+A character state cooldown. (when you click W, A, S or D, those buttons won't function until 0.5 seconds pass. Don't change it you fool)
 
 ---------------
 - **Is in state**
