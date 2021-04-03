@@ -392,7 +392,8 @@ It should look something like this (but without the camera movement and with you
 
 <img src="https://cdn.discordapp.com/attachments/827853989541576704/827959278111162368/aeai.gif" height="300" />
 
-Try it out at; https://sanebear.itch.io/fnf-tricky-madness-combat-test
+Try it out at: https://sanebear.itch.io/fnf-tricky-madness-combat-test
+Or check out my Fnf tests playlist here: https://youtube.com/playlist?list=PL1DlSsFTDg4eNK_c5g2sFNg7FIpsNE1G6
 
 Camera movements upcoming in the next Document Version. (i'm in a hurry sorry lol)
 
