@@ -75,7 +75,11 @@ public class IDFK : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        IsIdle = true;
+        UpNode = false;
+        DownNode = false
+        RightNode = false;
+        LeftNode = false;
     }
 
     // Update is called once per frame
