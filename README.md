@@ -384,6 +384,11 @@ After that, drag and drop your character sounds to the Project tab (the Characte
 
 For the Background, import it into the character sprites folder, then drag it into the scene tab and adjust the position to fit the screen.
 
+### Exporting the game:
+So to export the game, go to ``File > Build settings``, in the bottom left corner click on ``player settings``.
+
+The Product name is the game's name (you can change it to anything), Default icon is the game icon so feel free to change that too to whatever you want. (you gotta drag and drop an image to the project tab so you can choose it as a game icon)
+
 # Game Results
 
 ### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
