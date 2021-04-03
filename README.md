@@ -389,6 +389,8 @@ So to export the game, go to ``File > Build settings``, in the bottom left corne
 
 The Product name is the game's name (you can change it to anything), Default icon is the game icon so feel free to change that too to whatever you want. (you gotta drag and drop an image to the project tab so you can choose it as a game icon)
 
+And to finaly export it, close the Project Settings tab, go to the build settings tab and click on Build at the bottom right corner near the Build and run button, click the Build button and NOT the build and run one. Once clicked, it's gonna open a windows, choose a path for your game, create a folder for it and click export!
+
 # Game Results
 
 ### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
