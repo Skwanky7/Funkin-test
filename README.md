@@ -33,7 +33,7 @@ Okay so after that's done, go to the Project tab, double click on the Script fol
 </br>
 
 ### Open the C# script with Visual Studio Code, then do the following;
-Erase all the code, leave it completely blank then Copy and Paste this
+Erase all the code then Copy and Paste this in
 ```using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -227,3 +227,11 @@ public class IDFK : MonoBehaviour
 
 }
 ```
+Now this might be lookin' kinda scary but don't worry, it's an easy script and there must be no error (if there are any, report them to me here: https://discord.gg/5qvESRHEBx)
+
+Alrighty, save and go back to Unity and click on the Empty object "GameObject" and drag and drop the script into it's inspector.
+
+It should look like this:
+<br>
+<img height ="400" src="https://cdn.discordapp.com/attachments/827853989541576704/827900805196939335/unknown.png">
+</br>
