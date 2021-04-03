@@ -379,3 +379,9 @@ once you're done, select the Empty Object and drag and drop every single one of 
 After that, drag and drop your character sounds to the Project tab (the CharacterSprites folder to be specific) and select the empty gameobject in the hierarchy tab then drag and drop the audio clips into the empty slots. Right click in the hierarchy tab > Audio > AudioSource And finaly drag and drop that AudioSource into the Audio S slot in the GameObject's Inspector.
 
 ### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
+
+It should look something like this (but without the camera movement);
+
+https://user-images.githubusercontent.com/69820539/113486295-42c18380-94b2-11eb-9d51-8897247730c9.mp4
+
+
