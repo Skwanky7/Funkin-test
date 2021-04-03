@@ -12,4 +12,10 @@ So you're gonna wanna create a new project, Name i anything BUT make sure you ch
 <br>
 <img height ="400" src="https://cdn.discordapp.com/attachments/827853989541576704/827883851468636160/unknown.png">
 </br>
-Once the project is created, Create a folder Named
+
+Once the project is created, Right click in the Projects Tab, Then ```Create > Folder```
+<br>
+<img height ="200" src="https://cdn.discordapp.com/attachments/827853989541576704/827886137599197194/unknown.png">
+</br>
+
+You can Name it anything.
