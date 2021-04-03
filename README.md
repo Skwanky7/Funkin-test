@@ -21,10 +21,11 @@ Once the project is created, Right click in the Projects Tab, Then ```Create > F
 You can Name it anything, In my case, it's gonna be called "Scripts".
 
 Click on the Scene Tab and zoom into the camera using the mouse wheel.
-So once that's all done, you'll have to go to the Hierarchy Tab, ```Right click > Create Empty.```
 <br>
 <img height ="400" src="https://cdn.discordapp.com/attachments/827853989541576704/827889796956553236/unknown.png">
 </br>
+
+So once that's all done, you'll have to go to the Hierarchy Tab, ```Right click > Create Empty.```
 
 click on the Empty Object "GameObject" on the Hierarchy then Click W. 2 arrows should appear in the middle of the screen.
 Okay so after that's done, go to the Project tab, double click on the Script folder, then ```right click > Create > C# script``` And Name it anything.
