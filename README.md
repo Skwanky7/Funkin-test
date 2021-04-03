@@ -385,3 +385,6 @@ It should look something like this (but without the camera movement and with you
 <img src="https://cdn.discordapp.com/attachments/827853989541576704/827959278111162368/aeai.gif" height="300" />
 
 Camera movements upcoming in the next Document Version. (i'm in a hurry sorry lol)
+
+
+<sup> A document writen by SaneMan. </sup>
