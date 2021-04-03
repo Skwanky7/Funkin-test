@@ -393,4 +393,4 @@ It should look something like this (but without the camera movement and with you
 Camera movements upcoming in the next Document Version. (i'm in a hurry sorry lol)
 
 
-<sup> A document writen by SaneMan. </sup>
+<sup><sub> A document writen by SaneMan. </sub></sup>
