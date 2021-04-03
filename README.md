@@ -12,7 +12,7 @@ If you don't know how to download Unity or VScode;
 -bbpanzu
 
 ## Project Set up:
-So you're gonna wanna create a new project, Name i anything BUT make sure you choose **2D** as a template.
+So you're gonna wanna create a new project, Name it anything BUT make sure you choose **2D** as a template.
 <br>
 <img height ="400" src="https://cdn.discordapp.com/attachments/827853989541576704/827883851468636160/unknown.png">
 </br>
@@ -254,8 +254,9 @@ public bool UpNode;
 public bool DownNode;
 public bool LeftNode;
 public bool RightNode;
+public bool IsWorking;
 ```
-wich is a list full of boolean character states.
+wich is a list full of boolean character states. The ``IsWorking`` one is clear, it means if the Character is working (you're gonna wanna enable that in the inspector or nothing will work).
 
 - **Sprites**
 ```cs
@@ -283,6 +284,71 @@ public float cooldown;
 ```
 A character state cooldown.
 
+---------------
+- **Is in state**
+```cs
+if(IsIdle)
+{
+     IdleSprite.SetActive(true);
+     UpSprite.SetActive(false);
+     DownSprite.SetActive(false);
+     LeftSprite.SetActive(false);
+     RightSprite.SetActive(false);
+}
+```
+This is an example of a boolean state, the ``if(IsIdle)`` means *if the character is idle*, same goes for all the others and what it does is that when the character is on idle, All the Up, Down, Left and Right sprites are deactivated (``Down/Left/Up/RightSprite.SetActive(false);``) and only the Idle sprite is activated (``IdleSprite.SetActive(true);``).
 
 
+- **Is Working**
+```cs
+if(IsWorking)
+{
+        if(Input.GetKeyDown(KeyCode.W))
+        {
+            AudioS.PlayOneShot(UpSound);
+            StartCoroutine(UpNod());
+        }
 
+        if(Input.GetKeyDown(KeyCode.A))
+        {
+            AudioS.PlayOneShot(LeftSound);
+            StartCoroutine(LeftNod());
+        }
+
+        if(Input.GetKeyDown(KeyCode.S))
+        {
+            AudioS.PlayOneShot(DownSound);
+            StartCoroutine(DownNod());
+        }
+
+        if(Input.GetKeyDown(KeyCode.D))
+        {
+            AudioS.PlayOneShot(RightSound);
+            StartCoroutine(RightNod());
+        }
+
+}
+```
+What this does is it checks whether the ``IsWorking`` boolean is on or not, if so, when you click W, A, S or D (``if(Input.GetKeyDown(KeyCode.W/A/S/D))``) it's gonna do a play a certain node like Up for W, down for S etc.
+
+
+- **Node Function**
+```cs
+IEnumerator UpNod()
+{
+      IsIdle = false;
+      UpNode = true;
+      DownNode = false;
+      LeftNode = false;
+      RightNode = false;
+      IsWorking = false;
+      yield return new WaitForSeconds(cooldown);
+      IsIdle = true;
+      UpNode = false;
+      DownNode = false;
+      LeftNode = false;
+      RightNode = false;
+      IsWorking = true;
+}
+```
+And last but not least, this is an example of a Node Function, what it does is it deactivates boolean states that aren't needed, then waits for the cooldown time (``yield return new WaitForSeconds(cooldown);``) then reactivates them.
