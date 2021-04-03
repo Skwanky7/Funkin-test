@@ -3,7 +3,7 @@ Okay so let me get to the point, This is a document demonstrating Every step and
 
 
 ## First Step:
-Go to [Unity.com](https://unity3d.com/get-unity/download) and Download the unity Hub.
+Go to https://unity3d.com/get-unity/download and Download the unity Hub.
 
 Once downloaded, install then open it and go to the Installs Tab, Click Add, Choose Unity 2019, click next and don't choose a thing on the modules list, then click Done.
 
