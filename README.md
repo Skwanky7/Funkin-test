@@ -382,6 +382,6 @@ After that, drag and drop your character sounds to the Project tab (the Characte
 
 It should look something like this (but without the camera movement and with your sprites);
 
-https://youtu.be/iVyy303Kt68
+<img src="https://cdn.discordapp.com/attachments/827853989541576704/827959278111162368/aeai.gif" height="300" />
 
-
+Camera movements upcoming in the next Document Version. (i'm in a hurry sorry lol)
