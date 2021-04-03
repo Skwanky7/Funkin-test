@@ -382,9 +382,11 @@ once you're done, select the Empty Object and drag and drop every single one of 
 
 After that, drag and drop your character sounds to the Project tab (the CharacterSprites folder to be specific) and select the empty gameobject in the hierarchy tab then drag and drop the audio clips into the empty slots. Right click in the hierarchy tab > Audio > AudioSource And finaly drag and drop that AudioSource into the Audio S slot in the GameObject's Inspector.
 
+### Make sure to turn the IsWorking and IsIdle boolean on and disable all the others.
+
 For the Background, import it into the character sprites folder, then drag it into the scene tab and adjust the position to fit the screen.
 
-### Exporting the game:
+## Exporting the game:
 So to export the game, go to ``File > Build settings``, in the bottom left corner click on ``player settings``.
 
 The Product name is the game's name (you can change it to anything), Default icon is the game icon so feel free to change that too to whatever you want. (you gotta drag and drop an image to the project tab so you can choose it as a game icon)
@@ -392,8 +394,6 @@ The Product name is the game's name (you can change it to anything), Default ico
 And to finaly export it, close the Project Settings tab, go to the build settings tab and click on Build at the bottom right corner near the Build and run button, click the Build button and NOT the build and run one. Once clicked, it's gonna open a windows, choose a path for your game, create a folder for it and click export!
 
 # Game Results
-
-### Before you test the game, turn the IsWorking and IsIdle boolean on and disable all the others then start.
 
 It should look something like this (but without the camera movement and with your sprites);
 
