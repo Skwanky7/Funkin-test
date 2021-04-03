@@ -1,5 +1,5 @@
 # Funkin' Test V0.1
-Okay so let me get to the point, This is a document demonstrating Every step and requirement you gotta follow to be able to make a Friday night funkin test. It may seem complex but just bare with me. (note that i wrote this in 1 hour so i can quickly deliver it to you guys so it might not contain every detail and such)
+Okay so let me get to the point, This is a document demonstrating Every step and requirement you gotta follow to be able to make a Friday night funkin test. It may seem complex but just bare with me. (ok yes bad grammar, i wrote this in not even an hour so i can deliver it to y'all because i'm a busy person and all hahahahaha...)
 
 ## Requirements:
 - Windows 7 or more
