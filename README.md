@@ -329,7 +329,7 @@ if(IsWorking)
 
 }
 ```
-What this does is it checks whether the ``IsWorking`` boolean is on or not, if so, when you click W, A, S or D (``if(Input.GetKeyDown(KeyCode.W/A/S/D))``) it's gonna do a play a certain node like Up for W, down for S etc.
+What this does is it checks whether the ``IsWorking`` boolean is on or not, if so, when you click W, A, S or D (``if(Input.GetKeyDown(KeyCode.W/A/S/D))``) it's gonna play a certain node like Up for W, down for S etc.
 
 
 - **Node Function**
