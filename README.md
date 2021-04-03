@@ -1,4 +1,4 @@
-# Friday night funkin' Test development
+# Friday night funkin' Test development V0.1
 Okay so let me get to the point, This is a document demonstrating Every step and requirement you gotta follow to be able to make a Friday night funkin test. It may seem complex but just bare with me.
 
 ## Requirements:
