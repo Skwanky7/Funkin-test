@@ -1,11 +1,15 @@
 # Friday night funkin' Test development
-Okay so let me get to the point, This is a document demonstrating Every step and requirement you gotta have to be able to make a Friday night funkin test. It may or may not seem complex but just bare with me.
+Okay so let me get to the point, This is a document demonstrating Every step and requirement you gotta follow to be able to make a Friday night funkin test. It may seem complex but just bare with me.
 
 ## Requirements:
 - Windows 7 or more
 - 64bit computer
 - [Visual Studio Code](https://code.visualstudio.com/download)
 - [Unity 2019](https://unity3d.com/get-unity/download)
+
+If you don't know how to download Unity or VScode;
+> "it can be solved with a simple google search"
+-bbpanzu
 
 ## Project Set up:
 So you're gonna wanna create a new project, Name i anything BUT make sure you choose **2D** as a template.
@@ -239,7 +243,7 @@ It should look like this:
 </br>
 
 ## How it works:
-Ooookay, Let me explain what this does. (you can skip if you want but i'd recommend you read)
+Ooookay, Let me explain what this does. (you can skip if you want but i'd recommend you read so you know what you're doing)
 
 So, the script is basicaly everything needed for the test to work.
 
@@ -278,3 +282,7 @@ Character sound effects and sources.
 public float cooldown;
 ```
 A character state cooldown.
+
+
+
+
