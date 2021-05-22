@@ -77,7 +77,7 @@ public class IDFK : MonoBehaviour
     {
         IsIdle = true;
         UpNode = false;
-        DownNode = false
+        DownNode = false;
         RightNode = false;
         LeftNode = false;
     }
